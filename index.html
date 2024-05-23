@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <img src="pics/profile.jpg" alt="Profile Photo" class="profile-photo">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi there! Welcome to my website!
+            You can call me Ann for short, a BSIS student at Northwest Samar State University (NwSSU). I enjoy strengthening my current skillset and learning new information about web design. I'm glad destiny brought you to my page. Welcome, keep exploring, maybe you'll find something inspiring and if you have any questions don't hesitate to reach out. Hope this page serves you well. </p>
+    </section>
+
+    <section id="about" class="section">
+        <h1>About Me</h1>
+        <p>I'm Mary Ann B. Castillo, 22 years old and born on March 13, 2002. I live in Brgy. Dagum Calbayog City Samar. I studied in Northwest Samar State University (NwSSU), a second year college Bachelor of Science in Information System, a girl who strong and independent woman who knows what she wants in life. I am confident and always stay true to myself, no matter what others might think. I am also a very compassionate person and always try to see the best in people. My life is a mixture of moments, some happy moments and others not so much, but regardless, these moments have made me the person that I am today and I don't regret anything that had happen. 
+        </p>
+        <p>My Strength is that I am always ready to take up new challenges and strive for excellence. This is because I believe success and failures are the best way to sculpt ourselves to reach our goals. And I believe in myself and my hard work and want fulfillment in everything. 
+            Here's a short video of being me:</p>
+        <video controls>
+            <source src="vid/me.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="education" class="section">
+        <h1>Education</h1>
+        <h2>Primary</h2>
+        <strong>Dagum Elementary School</strong>
+        <p>Dagum Elementary School - where I developed a strong foundation in various subjects and nurtured a love for learning.</p>
+        <h2>Secondary</h2>
+        <strong>Calbayog City National High School</strong>
+        <p>I continued my studies at Calbayog City National High School. During these formative years. Secondary school has been an unrelenting path. These six years of secondary have had their excitement and their downfalls. My life had transformed into one that no individual could ever envision persevering through, an experience so unpleasant that it change my philosophy and point of view. </p>
+        <h2>Tertiary</h2>
+        <Strong>Northwest Samar State University</Strong>
+        <p>Currently, I am pursuing my major in BSIS at Northwest Samar State University. Here, I have engaged in rigorous coursework, hands-on projects, and various extracurricular activities that have significantly contributed to my personal and professional growth.
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <h1>Skills</h1>
+        <strong>Communication</strong>
+        <p>helps me as a student connect with others, express empathy, resolve conflicts, and establish a supportive network.</p>
+        <strong>Group work</strong>
+        <p>gives students the opportunity to engage in process skills critical for processing information, and evaluating and solving problems.</p>
+        <strong>Time management</strong>
+        <p>is of utmost importance to balance their studies with other daily essential tasks.</p>
+    </section>
+
+    <section id="hobbies" class="section">
+        <h1>Hobbies</h1>
+        <strong>Music</strong> <p>can calm my soul. This is enjoyable hobby that allows me to express myself.</p>
+        <strong>Cooking</strong> <p>when I get tired of an exhausting routine. I cooked small meal. </p>
+        <strong>Socializing</strong> <p> is any competence facilitating interaction and communication with others where social rules and relations are created, communicated, and changed in verbal and nonverbal ways.</p>
+    </section>
+
+    <section id="photos" class="section">
+        <h1>Photos</h1>
+        <p>There is only you and your camera. The limitations in your photography are in yourself, for what we see is what we are. My photos are automatically organized and searchable so you can easily find the photo you're looking for. Easily save and share what matters.</p>
+        <div class="photo-gallery">
+            <img src="pics/photo4.jpg" alt="Photo 1">
+            <img src="pics/profile photo.jpg" alt="Photo 2">
+            <img src="pics/photo2.jpg" alt="Photo 3">
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h1>Contact Me</h1>
+        <p>+639759034924</p>
+        <p>OR</p>
+        <p>You can find me on:</p>
+        <a href="https://www.facebook.com/maryanncastillo13" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/ann_qtkoh/" target="_blank">Instagram</a>
+        <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Mary Ann Castillo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
